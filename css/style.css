@@ -14,12 +14,17 @@
     font-size: 0.75rem;
   }
 }
+.a_hover {
+  color: gray;
+}
 .a_hover:hover {
   text-decoration: none;
+  color: #C7B299
 }
 .a_hover:hover .heading {
   color: #C7B299;
 }
+
 .a_hover:hover .hr-line {
   border-bottom: 3px solid #C7B299;
   width: 40%;
