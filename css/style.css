@@ -378,6 +378,10 @@ video {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
+.carusel-text {
+  position: relative;
+  bottom: 100px;
+}
 .carousel-control-prev-icon {
   background-image: url('../img/left-control.png');
   height: 40px;
@@ -464,6 +468,33 @@ video {
   position: absolute;
   right: 15px;
   top: 19px;
+}
+.search-ic img, .clipb img {
+  width: 1rem;
+  cursor: pointer;
+}
+.icons form button {
+  background: none;
+  padding: 0;
+  margin: 0.5rem;
+  box-shadow: none;
+  border: none;
+  appearance: none;
+}
+.icons form input {
+  width: 160px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.7rem;
+}
+.icons form input:focus {
+  outline: none;
+}
+.icons form {
+  display: none;
 }
 @media (max-width: 850px) {
   .header-row .clipb {

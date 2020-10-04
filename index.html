@@ -7,8 +7,6 @@
 	<!--<link rel="stylesheet/less" type="text/css" href="css/style.less">-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
-	<script src="js/jquery-3.5.1.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
 	<!--<script src="//cdn.jsdelivr.net/npm/less"></script>-->
 	<title>Document</title>
 </head>
@@ -38,6 +36,10 @@
 			<div class=" icons d-flex align-items-center">
 				<span class="clipb"><img src="img/clipb.png" alt="#"></span>
 				<span class="search-ic mx-4"><img src="img/search-ic.png" alt="#"></span>
+				<form action="#">
+					<input type="text" name="search" placeholder="search...">
+					<button class="search-ic" type="submit"><img src="img/search-ic.png" alt="#"></button>
+				</form>
 			</div>
 		</div>
 		<div class="row">
@@ -61,13 +63,13 @@
 					    <div class="carousel-item">
 					    	<img class="d-block w-100" src="img/slide2.jpg" alt="Второй слайд">
 					    	<div class="carousel-caption d-none d-md-block">
-					    		<h1 class="my-2">Portfolio PSD Template</h1>
+					    		<h1 class="my-2 carusel-text">Portfolio PSD Template</h1>
 					    	</div>
 					    </div>
 					    <div class="carousel-item">
 					    	<img class="d-block w-100" src="img/slide3.jpg" alt="Третий слайд">
 					    	<div class="carousel-caption d-none d-md-block">
-					    		<h1>Portfolio PSD Template</h1>
+					    		<h1 class="my-2 carusel-text">Portfolio PSD Template</h1>
 					    	</div>
 					    </div>
 					</div>
@@ -482,5 +484,8 @@
 			</div>
 		</div>
 	</div>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/myscript.js"></script>
 </body>
 </html>
