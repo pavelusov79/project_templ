@@ -13,7 +13,11 @@ window.onload = function() {
 		if(e.target != input & e.target != search) {
 			form.style.display = 'none';
 			search.style.display = 'block';
-			clipb.style.display = 'block';
+			if(innerWidth < 500) {
+				clipb.style.display = 'none';
+			} else {
+				clipb.style.display = 'block';
+			}
 		};	
 	};
 };
