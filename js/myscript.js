@@ -13,7 +13,7 @@ window.onload = function() {
 		if(e.target != input & e.target != search) {
 			form.style.display = 'none';
 			search.style.display = 'block';
-			if(innerWidth < 600) {
+			if(innerWidth < 676) {
 				clipb.style.display = 'none';
 			} else {
 				clipb.style.display = 'block';

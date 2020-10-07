@@ -504,7 +504,7 @@ video {
     margin-right: 1rem!important;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 676px) {
   .clipb {
     display: none;
   }
